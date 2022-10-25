@@ -2086,7 +2086,7 @@
   (symbol (lib_id "power:+5V") (at 57.15 16.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0b28ad2f-122c-46f1-b095-f0acacd460ac)
-    (property "Reference" "#PWR?" (id 0) (at 57.15 20.32 0)
+    (property "Reference" "#PWR0101" (id 0) (at 57.15 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 59.69 13.97 0))
@@ -2988,7 +2988,7 @@
   (symbol (lib_id "power:+5V") (at 90.17 16.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7cac6d18-b1ff-4158-927b-4a7afa7e306a)
-    (property "Reference" "#PWR?" (id 0) (at 90.17 20.32 0)
+    (property "Reference" "#PWR0103" (id 0) (at 90.17 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 92.71 13.97 0))
@@ -3238,7 +3238,7 @@
   (symbol (lib_id "TC33X-2-103E:TC33X-2-103E") (at 57.15 26.67 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9abae127-e0ee-46b2-b6e2-dbc096437d9a)
-    (property "Reference" "R?" (id 0) (at 53.34 25.3999 90)
+    (property "Reference" "R4" (id 0) (at 53.34 25.3999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TC33X-2-103E" (id 1) (at 49.53 34.29 0)
@@ -3589,7 +3589,7 @@
   (symbol (lib_id "TC33X-2-103E:TC33X-2-103E") (at 90.17 26.67 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ce087a79-088a-4b36-9551-61344a061170)
-    (property "Reference" "R?" (id 0) (at 86.36 25.3999 90)
+    (property "Reference" "R5" (id 0) (at 86.36 25.3999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TC33X-2-103E" (id 1) (at 82.55 34.29 0)
@@ -3881,7 +3881,7 @@
   (symbol (lib_id "power:GND") (at 90.17 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ecda5c0c-7556-4038-b147-690988ab17da)
-    (property "Reference" "#PWR?" (id 0) (at 90.17 43.18 0)
+    (property "Reference" "#PWR0104" (id 0) (at 90.17 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 92.71 38.0999 0)
@@ -4230,8 +4230,17 @@
     (path "/ece1ea89-6569-4ac9-9e13-45d6e37f0070"
       (reference "#PWR033") (unit 1) (value "GND") (footprint "")
     )
+    (path "/0b28ad2f-122c-46f1-b095-f0acacd460ac"
+      (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/f1df09a9-e714-4783-9999-ec6ab2809683"
       (reference "#PWR0102") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/7cac6d18-b1ff-4158-927b-4a7afa7e306a"
+      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/ecda5c0c-7556-4038-b147-690988ab17da"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/c5eaef10-b497-4e30-9734-8f1cebcdc9de"
       (reference "#PWR0105") (unit 1) (value "+1V0") (footprint "")
@@ -4256,15 +4265,6 @@
     )
     (path "/f0d8fdd2-cc4f-4bf1-ba1a-b6fce7e98272"
       (reference "#PWR0116") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/0b28ad2f-122c-46f1-b095-f0acacd460ac"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/7cac6d18-b1ff-4158-927b-4a7afa7e306a"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/ecda5c0c-7556-4038-b147-690988ab17da"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/9693536b-4727-4111-bd6e-6b5a38100334"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -4332,6 +4332,12 @@
     (path "/a9a88130-8af1-43fc-9167-926eb6df2dea"
       (reference "R3") (unit 1) (value "100k") (footprint "Resistor_SMD:R_01005_0402Metric")
     )
+    (path "/9abae127-e0ee-46b2-b6e2-dbc096437d9a"
+      (reference "R4") (unit 1) (value "TC33X-2-103E") (footprint "TC33X-2-103E:TRIM_TC33X-2-103E")
+    )
+    (path "/ce087a79-088a-4b36-9551-61344a061170"
+      (reference "R5") (unit 1) (value "TC33X-2-103E") (footprint "TC33X-2-103E:TRIM_TC33X-2-103E")
+    )
     (path "/f9c8b0cc-aaac-4839-834f-a2ce216cbb8f"
       (reference "R8") (unit 1) (value "11.3k") (footprint "Resistor_SMD:R_01005_0402Metric")
     )
@@ -4397,12 +4403,6 @@
     )
     (path "/86b0de32-dcf9-4694-aa8c-bf3bcfb97630"
       (reference "R29") (unit 1) (value "11.3k") (footprint "Resistor_SMD:R_01005_0402Metric")
-    )
-    (path "/9abae127-e0ee-46b2-b6e2-dbc096437d9a"
-      (reference "R?") (unit 1) (value "TC33X-2-103E") (footprint "TC33X-2-103E:TRIM_TC33X-2-103E")
-    )
-    (path "/ce087a79-088a-4b36-9551-61344a061170"
-      (reference "R?") (unit 1) (value "TC33X-2-103E") (footprint "TC33X-2-103E:TRIM_TC33X-2-103E")
     )
     (path "/308d6a19-13d9-4a79-af04-65baedb82d13"
       (reference "U1") (unit 1) (value "LM4040DBZ-5") (footprint "Package_TO_SOT_SMD:SOT-23")
