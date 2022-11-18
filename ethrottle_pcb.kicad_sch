@@ -1357,7 +1357,6 @@
     )
   )
 
-
   (junction (at 227.33 86.36) (diameter 0) (color 0 0 0 0)
     (uuid 017726ec-b9b7-45bd-996c-4bec26915083)
   )
@@ -4455,8 +4454,8 @@
     (property "Footprint" "ZXTR2105F-7:ZXTR2105F-7" (id 2) (at 21.844 38.1 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 27.94 58.42 0)
-      (effects (font (size 1.524 1.524)))
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/115/ZXTR2105F-1594562.pdf" (id 3) (at 27.94 58.42 0)
+      (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid e46940e1-055e-451e-8c13-c3a0045c2a22))
     (pin "2" (uuid 57e650d2-75cb-41a4-85a5-a7b30981b1ff))
