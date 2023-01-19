@@ -2562,7 +2562,7 @@
     (property "Reference" "Q2" (id 0) (at 233.045 82.5499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DDTC143ZCA-7-F" (id 1) (at 233.045 85.0899 0)
+    (property "Value" "DDTC124XCA-7-F" (id 1) (at 233.045 85.0899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 227.33 83.82 0)
@@ -5058,7 +5058,7 @@
       (reference "Q1") (unit 1) (value "ZXTR2105F-7") (footprint "ZXTR2105F-7:ZXTR2105F-7")
     )
     (path "/0fabc74a-1641-4d25-816f-64e9c3a94164"
-      (reference "Q2") (unit 1) (value "DDTC143ZCA-7-F") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q2") (unit 1) (value "DDTC124XCA-7-F") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/9abae127-e0ee-46b2-b6e2-dbc096437d9a"
       (reference "R1") (unit 1) (value "TC33X-2-103E") (footprint "TC33X-2-103E:TRIM_TC33X-2-103E")
