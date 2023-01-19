@@ -1204,6 +1204,11 @@
       (net 29 "+5V") (pinfunction "VOUT") (pintype "output") (tstamp bc33d831-40eb-4053-b97b-d86959f80b73))
     (pad "3" smd rect (at 0 -0.9398) (size 0.5588 1.3208) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 28 "+12V") (pinfunction "VIN") (pintype "power_in") (tstamp 58a7eca7-4d89-492b-b4c3-098ac1134f64))
+    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "MCP6004T-I_ST:SOP65P640X120-14N" (layer "F.Cu")
@@ -1317,6 +1322,11 @@
       (net 27 "4.5V") (pinfunction "-") (pintype "input") (tstamp b644bff3-9c29-46df-b42d-3c6ce4fc2ed7))
     (pad "14" smd rect locked (at 2.8194 -1.9558) (size 1.4732 0.3556) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 9 "Net-(D8-Pad2)") (pintype "output") (tstamp b9ac172e-4978-494c-a15d-9125d56196b3))
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_3.5mm_Pad" (layer "F.Cu")
@@ -1486,12 +1496,17 @@
     (fp_line (start 1.8 -1.8) (end 1.8 1.8) (layer "F.Fab") (width 0.127) (tstamp 8da8154d-0214-4df1-8b6e-32da4dc63720))
     (fp_line (start -2 -1.8) (end 1.8 -1.8) (layer "F.Fab") (width 0.127) (tstamp c8220605-aac3-463b-b327-87ddd83affcb))
     (fp_circle (center -2.94567 -1.558) (end -2.82567 -1.558) (layer "F.Fab") (width 0.24) (fill none) (tstamp 7b63ad0d-9df2-43a6-919e-feefa2e7fa9c))
-    (pad "1" smd rect locked (at -1.8 -1 270) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.8 -1 270) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 29 "+5V") (pintype "passive") (tstamp 2d907398-8be6-4de2-a36c-45e9dd74aa16))
-    (pad "2" smd rect locked (at 1.45 0 180) (size 1.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.45 0 180) (size 1.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 37 "BREF") (pintype "passive") (tstamp 8d1e1db1-6e7d-4566-81fe-562f9b0285dc))
-    (pad "3" smd rect locked (at -1.8 1 270) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd rect (at -1.8 1 270) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pintype "passive") (tstamp 35b5a395-49b1-4d0f-bafd-69ed24881cbe))
+    (model "${KIPRJMOD}/LIB_TC33X-2-103E/TC33X-2-103E.stp"
+      (offset (xyz 0 0 0.25))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
@@ -1652,6 +1667,11 @@
       (net 21 "Net-(D13-Pad1)") (pinfunction "-") (pintype "input") (tstamp 7ee12328-fd48-4890-9339-d13e0ccf6139))
     (pad "14" smd rect locked (at 2.8194 -1.9558) (size 1.4732 0.3556) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 39 "Net-(U2-Pad14)") (pintype "output") (tstamp 6191156c-1990-4952-87ed-92ac96aacc59))
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_01005_0402Metric" (layer "F.Cu")
@@ -1947,12 +1967,17 @@
     (fp_line (start 1.8 1.8) (end -2 1.8) (layer "F.Fab") (width 0.127) (tstamp 99d7c0f5-a5cb-4459-b788-0b4514124cb8))
     (fp_line (start -2 -1.8) (end 1.8 -1.8) (layer "F.Fab") (width 0.127) (tstamp fac70ad2-c802-4782-bd43-18efd3bb8b9d))
     (fp_circle (center -2.94567 -1.558) (end -2.82567 -1.558) (layer "F.Fab") (width 0.24) (fill none) (tstamp a861647b-087a-41ef-8bea-220809017672))
-    (pad "1" smd rect locked (at -1.8 -1 270) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.8 -1 270) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 29 "+5V") (pintype "passive") (tstamp 3df8ba12-583d-400c-a900-817e4a1609d8))
-    (pad "2" smd rect locked (at 1.45 0 180) (size 1.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.45 0 180) (size 1.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 36 "TREF") (pintype "passive") (tstamp c2846d2b-bdba-4b8c-b9da-468a3b69a175))
-    (pad "3" smd rect locked (at -1.8 1 270) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd rect (at -1.8 1 270) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pintype "passive") (tstamp 4c441763-1145-4cbf-80d1-6b529ab420fb))
+    (model "${KIPRJMOD}/LIB_TC33X-2-103E/TC33X-2-103E.stp"
+      (offset (xyz 0 0 0.24))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "Resistor_SMD:R_01005_0402Metric" (layer "F.Cu")
@@ -2908,6 +2933,11 @@
     (pad "12" smd rect locked (at 2.8194 -0.6604 180) (size 1.4732 0.3556) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 97ac6e4a-f667-4477-aa7c-1a386bb4ef62))
     (pad "13" smd rect locked (at 2.8194 -1.2954 180) (size 1.4732 0.3556) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e51bbc6a-eeba-406b-a099-d6b9d286383e))
     (pad "14" smd rect locked (at 2.8194 -1.9558 180) (size 1.4732 0.3556) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8bd2fa45-183d-45fe-9727-5641ebaf9d71))
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "UB2-5NUN:UB2-5NUN" (layer "B.Cu")
