@@ -1,0 +1,267 @@
+﻿STEP to UG
+! INFO-     NX STEP AP214 - V2206.1700
+! INFO-      
+! INFO-     Start of Translation: 18-JAN-2023  6:33:44 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\manas\Dev\ethrottle-pcb\ethrottle_pcb.step
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      KiCad electronic assembly
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        ethrottle_pcb.step
+! SUMMARY-  Date             2023-01-18T18:25:42
+! SUMMARY-  Author           Pcbnew
+! SUMMARY-  Organization     Kicad
+! SUMMARY-  Pre_Version      Open CASCADE STEP processor 7.6
+! SUMMARY-  Orig_System      KiCad to STEP converter
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_brep_shape_representation .........................:      9
+! SUMMARY-  advanced_face ..............................................:    921
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_2d .........................................:     36
+! SUMMARY-  axis2_placement_3d .........................................:    119
+! SUMMARY-  b_spline_curve_with_knots ..................................:   6166
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    881
+! SUMMARY-  b_spline_surface_with_knots ................................:    650
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    247
+! SUMMARY-  cartesian_point ............................................:  25824
+! SUMMARY-  circle .....................................................:     72
+! SUMMARY-  closed_shell ...............................................:      9
+! SUMMARY-  context_dependent_shape_representation .....................:     58
+! SUMMARY-  cylindrical_surface ........................................:     18
+! SUMMARY-  definitional_representation ................................:   4830
+! SUMMARY-  direction ..................................................:    400
+! SUMMARY-  edge_curve .................................................:   2415
+! SUMMARY-  edge_loop ..................................................:   1031
+! SUMMARY-  face_bound .................................................:   1031
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     18
+! SUMMARY-  item_defined_transformation ................................:     58
+! SUMMARY-  length_unit_and_si_unit ....................................:     18
+! SUMMARY-  line .......................................................:    126
+! SUMMARY-  manifold_solid_brep ........................................:      9
+! SUMMARY-  next_assembly_usage_occurrence .............................:     58
+! SUMMARY-  oriented_edge ..............................................:   4830
+! SUMMARY-  pcurve .....................................................:   4830
+! SUMMARY-  plane ......................................................:      6
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:     18
+! SUMMARY-  product ....................................................:     18
+! SUMMARY-  product_context ............................................:     18
+! SUMMARY-  product_definition .........................................:     18
+! SUMMARY-  product_definition_context .................................:     18
+! SUMMARY-  product_definition_formation ...............................:     18
+! SUMMARY-  product_definition_shape ...................................:     76
+! SUMMARY-  product_related_product_category ...........................:     18
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     58
+! SUMMARY-  seam_curve .................................................:     80
+! SUMMARY-  shape_representation .......................................:      9
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:     18
+! SUMMARY-  surface_curve ..............................................:   2335
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     18
+! SUMMARY-  vector .....................................................:    126
+! SUMMARY-  vertex_point ...............................................:   1578
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          59095
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 18-JAN-2023 6:33:45 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:50 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\ethrottle_pcb PCB
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:57 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\SOLID24815
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:57 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\SOLID17538
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:57 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\SOLID12889
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:57 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\SOLID9624
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:57 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\SOLID7753
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\SOLID3821
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\SOLID1965
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\SOLID
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\ATM15-08PA-BM02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\UB2-5NUN
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\SOT-23
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\LED_0402_1005Metric
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\C_0805_2012Metric
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\D_SOD-123
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\C_0201_0603Metric
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\R_01005_0402Metric
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 18-JAN-2023  6:33:58 PM
+! INFO-     Filing Part ..: C:\Users\manas\Dev\ethrottle-pcb\ethrottle_pcb_step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    50
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             50
+! INFO-      
+! INFO-     Total number of solids input for this translation       :         9
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         9
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 18-JAN-2023  6:33:58 PM
+! INFO-      
