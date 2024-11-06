@@ -3747,6 +3747,12 @@
 		(uuid "3390eca2-71c3-429f-bd2e-e116dfccc647")
 	)
 	(junction
+		(at 220.98 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34da4fba-afde-4901-b420-c266cce4a3c2")
+	)
+	(junction
 		(at 163.83 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3899,6 +3905,16 @@
 			(type default)
 		)
 		(uuid "008dcf3b-51a0-408c-bbb8-74daed60775d")
+	)
+	(wire
+		(pts
+			(xy 220.98 130.81) (xy 220.98 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025f336e-5a62-46ba-abba-25c17ee5284d")
 	)
 	(wire
 		(pts
@@ -4082,6 +4098,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 153.67) (xy 220.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a769bf1-6871-4cbb-82a6-3c811693ce72")
+	)
+	(wire
+		(pts
 			(xy 100.33 90.17) (xy 114.3 90.17)
 		)
 		(stroke
@@ -4249,6 +4275,16 @@
 			(type default)
 		)
 		(uuid "53f5f405-1dd9-44bf-88e5-6bd8e0b4fed3")
+	)
+	(wire
+		(pts
+			(xy 220.98 130.81) (xy 222.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3a5e1d-1efd-4603-ba52-4a597d95a262")
 	)
 	(wire
 		(pts
@@ -4442,7 +4478,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 130.81) (xy 222.25 130.81)
+			(xy 219.71 130.81) (xy 220.98 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4639,6 +4675,16 @@
 			(type default)
 		)
 		(uuid "b4025430-e1d1-4e21-b505-9e16656e9a4c")
+	)
+	(wire
+		(pts
+			(xy 229.87 91.44) (xy 238.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45a2d83-7af4-42e1-8f76-571832d31bc8")
 	)
 	(wire
 		(pts
@@ -5435,7 +5481,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 229.87 101.6 90)
+		(at 220.98 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5443,7 +5489,7 @@
 		(dnp no)
 		(uuid "01a232a3-17ae-4f7d-a8e3-7dba27548d89")
 		(property "Reference" "D17"
-			(at 236.22 101.5365 0)
+			(at 224.536 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5497,7 @@
 			)
 		)
 		(property "Value" "VLMO1500-GS08"
-			(at 227.33 101.6 0)
+			(at 210.058 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5505,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 229.87 101.6 90)
+			(at 220.98 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5514,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/82554/vlmo1500.pdf"
-			(at 229.87 101.6 90)
+			(at 220.98 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 101.6 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7794,7 +7840,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 104.14 0)
+		(at 220.98 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7802,7 +7848,7 @@
 		(dnp no)
 		(uuid "3b84c4fd-e2ec-4aef-8ab2-a98fb4b62050")
 		(property "Reference" "#PWR036"
-			(at 229.87 110.49 0)
+			(at 220.98 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,7 +7857,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 110.49 90)
+			(at 218.948 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +7866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 104.14 0)
+			(at 220.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +7875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 104.14 0)
+			(at 220.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +7884,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 104.14 0)
+			(at 220.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8278,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 229.87 95.25 0)
+		(at 220.98 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8241,7 +8287,7 @@
 		(fields_autoplaced yes)
 		(uuid "46722ec5-8b21-4822-9fcb-34080e02f7a4")
 		(property "Reference" "R27"
-			(at 232.41 93.9799 0)
+			(at 223.52 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +8296,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 232.41 96.5199 0)
+			(at 223.52 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,7 +8305,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 228.092 95.25 90)
+			(at 219.202 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,7 +8314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 95.25 0)
+			(at 220.98 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +8323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 95.25 0)
+			(at 220.98 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,6 +9240,72 @@
 			(project "ethrottle_pcb"
 				(path "/17f95f74-10b7-4373-a7a9-5b0f3d991670"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e3eba2-eb7c-43f1-906b-68bf5eb35b7a")
+		(property "Reference" "#PWR06"
+			(at 238.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0112589-b121-47ec-b5dd-9915066e9dc6")
+		)
+		(instances
+			(project "ethrottle_pcb"
+				(path "/17f95f74-10b7-4373-a7a9-5b0f3d991670"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
